@@ -163,3 +163,24 @@ main{
     border: none;
     border-radius: 5px;
 }
+
+/* Footer styling */
+footer{
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 130px;
+    background-color: #0B0D17;
+}
+.footer-text{
+    text-align: center;
+    padding: 42px 0;
+.footer-title{
+    color: #FF5959;
+    font-family: "Lobster", sans-serif;
+    font-size: 36px;
+}
+.footer-subtitle{
+    font-size: 14px;
+    color: #D9DBE1;
+    margin-top: 10px;
+}

@@ -1,0 +1,125 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+
+/* header section styling */
+header{
+    max-width: 100%;
+    padding: 175px 300px;
+    background-color: lightslategray;
+    background-image: url('../images/donation1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode:multiply;
+    color: #FFFFFF;
+    text-align: center;
+}
+.header-title{
+    font-size: 65px;
+    font-weight: bold;
+}
+.header-description{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.btn-primary{
+    font-size: 20px;
+    font-weight: 600px;
+    color:#FFFFFF;
+    background-color: #FF5959;
+    border-radius: 5px;
+    padding: 15px 20px;
+    border: none;
+}
+
+/* Main section styling */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* donate-today styling */
+.donate-today{
+    max-width: 765px;
+    margin: 0 auto;
+    padding: 130px 0;
+    text-align: center;
+}
+.section-title{
+    font-size: 45px;
+    font-weight: bold;
+    color: #121212;
+}
+.section-description{
+    color: #707070;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: bold;
+    color: #707070;
+}
+#hilighted-amount{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    padding: 43px 23px;
+}
+#other-amount{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    text-align: center;
+    padding: 18px 0;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.donate-plan{
+    text-align: center;
+}
+.donate-plan .section-description{
+    margin: 0 220px;
+}
+.plan-container{
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+.plan-content{
+    text-align: left;
+    padding: 60px 25px;
+    border-radius: 5px;
+}
+.plan-content img{
+    width: 50px;
+    margin-bottom: 30px;
+}
+.plan-title{
+    font-size: 24px;
+    font-weight: 600px;
+    margin-bottom: 16px;
+    color:#121212;
+}
+.plan-description{
+    color:#707070;
+}
+#plan-food{
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+#plan-shelter{
+    background-color: #FFD3D3;
+}
+#plan-education{
+    background-color: #FFF4D6;
+}
